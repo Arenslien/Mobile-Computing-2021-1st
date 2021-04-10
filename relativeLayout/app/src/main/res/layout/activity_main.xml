@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/baseLayout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전화번호"
+            android:textSize="30sp">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="000-0000-0000"
+            android:textSize="30sp">
+        </EditText>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_toLeftOf="@id/btnCancel"
+        android:layout_alignBaseline="@id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력"
+        android:textSize="20sp">
+    </Button>
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_below="@id/baseLayout"
+        android:layout_alignRight="@id/baseLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:textSize="20sp">
+    </Button>
+
+</RelativeLayout>
