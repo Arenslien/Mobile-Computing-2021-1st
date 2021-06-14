@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnPrev" type="id" />
+    <item name="btnNext" type="id" />
+    <item name="myPictureView" type="id" />
+</resources>

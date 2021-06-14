@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JungSH_60191686_MidExam</string>
+    <string name="menu1">이미지 확대 2배</string>
+    <string name="menu2">이미지 원래 크기</string>
+    <string name="btnPrevText">PREVIOUS</string>
+    <string name="btnNextText">NEXT</string>
+    <string name="nougat">Nougat</string>
+    <string name="oreo">Oreo</string>
+    <string name="pie">Pie</string>
+    <string name="android_q">Android Q</string>
+    <string name="android_r">Android R</string>
+</resources>
