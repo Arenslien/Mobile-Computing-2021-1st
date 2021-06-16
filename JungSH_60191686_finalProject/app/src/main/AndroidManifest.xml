@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".CityListViewActivity" android:label="CityListView Activity"/>
-        <activity android:name=".InformationActivity" android:label="Information Activity"/>
+        <activity android:name=".FavoriteLocationListViewActivity" android:label="FavoriteLocation Activity"/>
 
     </application>
 
